@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/virtual_bookstore
+    username: root
+    password: 7901
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+razorpay:
+  key: rzp_test_SK3leuutD83G1j
+  secret: ZOuFjjA0LXsdZJKLooKz2qCF
